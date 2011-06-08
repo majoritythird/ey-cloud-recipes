@@ -49,7 +49,8 @@ if utility_name
         variables({
           :app_name => app_name,
           :user => node[:owner_name],
-          :mem_limit => 32
+          :mem_limit => 32,
+          :address => "ec2-75-101-179-108.compute-1.amazonaws.com"
         })
       end
     end
@@ -110,7 +111,8 @@ if utility_name
         variables({
           :app_name => app_name,
           :user => node[:owner_name],
-          :mem_limit => 32
+          :mem_limit => 32,
+          :address => "ec2-75-101-179-108.compute-1.amazonaws.com"
         })
       end
 
@@ -210,7 +212,8 @@ else
         variables({
           :app_name => app_name,
           :user => node[:owner_name],
-          :mem_limit => 32
+          :mem_limit => 32,
+          :address => "ec2-75-101-179-108.compute-1.amazonaws.com"
         })
       end
 
